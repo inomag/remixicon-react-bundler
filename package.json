@@ -1,0 +1,42 @@
+{
+  "name": "remixicon-react-bundler",
+  "version": "1.0.8",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "tsx scripts/updateTypesAndString.ts",
+    "build": "tsc && webpack"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@types/node": "^22.15.17",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "babel-loader": "^10.0.0",
+    "node-fetch": "^3.3.2",
+    "raw-loader": "^4.0.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "svgo": "^3.3.2",
+    "ts-loader": "^9.5.2",
+    "tsx": "^4.19.4",
+    "unzipper": "^0.12.3",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
