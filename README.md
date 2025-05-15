@@ -1,6 +1,8 @@
 # remixicon-react-bundler
 
 [![npm version](https://img.shields.io/npm/v/remixicon-react-bundler.svg)](https://www.npmjs.com/package/remixicon-react-bundler)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 A lightweight, performance-optimized React bundler for [Remix Icon](https://remixicon.com) SVGs. Instead of importing the entire Remix Icon package or relying on CDN, this library dynamically loads only the icons you use, dramatically reducing bundle size and improving offline availability.
 
