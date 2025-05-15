@@ -13,6 +13,8 @@ A lightweight, performance-optimized React bundler for [Remix Icon](https://remi
 - 📏 **Resizable Icons** – Control icon size via a simple `size` prop.
 - 📦 **Minimal Bundle Size** – Uses dynamic imports and manual path rendering.
 
+![Screenshot 2025-05-16 at 1 08 55 AM](https://github.com/user-attachments/assets/255d9a15-4360-4881-b4cf-b4c0fc0abae1)
+
 ---
 
 ## 📦 Installation
